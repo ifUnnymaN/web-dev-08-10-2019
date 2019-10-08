@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-}
-
 p {
   margin: 0;
   padding: 0;
@@ -32,11 +28,39 @@ body {
   color: #010101;
   background-color: #fff;
   max-width: 1920px;
-  width: 100%;
+  /* width: 100%; */
   min-height: 100vh;
   line-height: normal;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  border: 1px solid red;
+  align-items: center;
 }
 
 /* =======================
 ========= NAVBAR =========
 ======================  */
+
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar__menu-list ul {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__menu-list li {
+  list-style: none;
+}
+
+.navbar__menu-loop {
+  display: flex;
+  align-items: center;
+}
